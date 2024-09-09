@@ -1,13 +1,17 @@
 public class main {
     public static void main (String[] args) {
-
-        System.out.println("Hello World");
-        System.out.println(1+1);
-        System.out.println(1-1);
-        System.out.println(2.0/3);
-        System.out.println(2*7);
-        System.out.println("1321" + "23");
+        hiFunc("Timurka");
 
 
+        double a = 5;
+        double b = 3;
+        System.out.println(ploshad(a,b));
+
+    }
+    public static void hiFunc(String broName) {
+        System.out.println("Hello, " + broName);
+    }
+    public static double ploshad(double a, double b) {
+        return a*b;
     }
 }
