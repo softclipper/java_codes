@@ -9,6 +9,7 @@ public class main {
     public static void hiFunc(String broName) {
         System.out.println("Hello, " + broName);
     }
+    
     public static double ploshad(double a, double b) {
         return a*b;
     }
